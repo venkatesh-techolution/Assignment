@@ -1,0 +1,30 @@
+@import '../assets/constants';
+
+.side-bar { 
+    width:$sidebar-size;
+    height: 100vh;
+    position:fixed;
+    display: block;
+    padding: $padding;
+    background: $light-blue;
+    box-sizing: border-box;
+    }
+
+.content{
+    width:$content-size;
+    margin-left: $sidebar-size;
+    box-sizing: border-box;
+    img {
+        width: 100%;
+    }
+    p{
+        background: $bg-color-text;
+        color: $white;
+        position: fixed;
+        bottom: 0;
+        box-sizing: border-box;
+        padding: $padding;
+        margin: 0;
+    }
+}
+

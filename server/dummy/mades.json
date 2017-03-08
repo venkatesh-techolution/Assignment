@@ -1,0 +1,26 @@
+{
+	"Ford": [
+		{
+			"name": "Edge",
+			"imageUrl": "/images/ford_edge.jpg",
+			"description": "The Ford Edge is a mid-sized crossover SUV manufactured by Ford.The first generation Edge is based on the Ford CD3 platform shared with the first generation Ford Fusion, Mazda CX-9, first & second generation Mazda 6 and Lincoln MKX.Along with a rebadged premium variant, the Lincoln MKX, the Edge (codename U387), is manufactured at Ford's Oakville Assembly Complex in Oakville, Ontario, Canada."
+		},
+		{
+			"name": "Escape",
+			"imageUrl": "/images/ford_escape.jpg",
+			"description": "The Ford Escape is a compact crossover vehicle sold by Ford since 2000 over three generations. Ford released the original model in 2000 for the 2001 model year—a model jointly developed and released with Mazda of Japan—who took a lead in the engineering of the two models and sold their version as the Mazda Tribute"
+		}
+	],
+	"Acura": [
+		{
+			"name": "ILX",
+			"imageUrl": "/images/acura_ilx.jpg",
+			"description": "The Acura ILX is a compact luxury sedan for Honda's luxury brand Acura. All ILX variants are based upon the ninth-generation Civic Sedan."
+		},
+		{
+			"name": "MDX",
+			"imageUrl": "/images/acura_mdx.jpg",
+			"description" : "The MDX was the first crossover SUV to have third-row seating, and shares a platform with the Honda Pilot.[8] The Pilot seats eight, while the MDX seats seven, with two seating positions in the third row. The MDX was introduced as a 2001 model, replacing the slow-selling U.S.-only body-on-frame SLX, based on the Isuzu Trooper."
+		}
+	]
+}

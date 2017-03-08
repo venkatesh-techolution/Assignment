@@ -1,0 +1,4 @@
+<select (change)="itemSelected($event.target.value)"> 
+    <option [value]="" disabled>{{defaultText}}</option>
+    <option *ngFor="let item of list" [value]="item._id">{{item.name}}</option>
+</select>

@@ -1,0 +1,12 @@
+@import '../../assets/mixins';
+@import '../../assets/constants';
+
+select { 
+    @include border-radius($radius);
+    @include appearance(none);
+    width:100%;
+    padding:$padding;
+    margin-bottom:$padding; 
+    background: $white;
+    }
+    

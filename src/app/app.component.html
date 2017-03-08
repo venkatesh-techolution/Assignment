@@ -1,0 +1,10 @@
+<div class="main">
+  <div class="side-bar">
+    <app-custom-select [list]="makes" (notify)='onMakeSelected($event)' [defaultText]="'Please Select Make'"></app-custom-select>
+    <app-custom-select *ngIf="mades.length>0" [list]="mades" (notify)='onMadeSelected($event)' [defaultText]="'Please Select Model'"></app-custom-select>
+  </div>
+  <div class="content">
+    <img *ngIf="imageUrl.length > 0" [src]="imageUrl">
+    <p *ngIf="description.length > 0" >{{description}} </p>
+  </div>
+</div>
