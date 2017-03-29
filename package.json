@@ -1,7 +1,7 @@
 {
   "name": "assignment",
   "version": "0.0.1",
-  "license": "MIT",
+  "license": "MIT =====>changes in =>final new branch",
   "scripts": {
     "start": "ng build && node ./server/app",
     "ng": "ng",
